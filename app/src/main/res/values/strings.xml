@@ -1,3 +1,62 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <string name="app_name">Just Java</string>
+
+    <!--Header text for the list of toppings [CHAR LIMIT=20]-->
+    <string name="toppings">Toppings</string>
+
+    <!--Name hint for the order summary [CHAR LIMIT=NONE]-->
+    <string name="customer_name">Name</string>
+
+    <!--Whipped cream topping option for coffee [CHAR LIMIT=NONE]-->
+    <string name="whipped_cream">Whipped cream</string>
+
+    <!--Chocolate topping option for coffee [CHAR LIMIT=NONE]-->
+    <string name="chocolate">Chocolate</string>
+
+    <!--Header text for the number of coffee that is ordered [CHAR LIMIT=NONE]-->
+    <string name="quantity">Quantity</string>
+
+    <!--Reduce the quantity of coffee [CHAR LIMIT=NONE]-->
+    <string name="decrement">-</string>
+
+    <!--Increases the quantity of coffee [CHAR LIMIT=NONE]-->
+    <string name="increment">+</string>
+
+    <!--Text that displays the amount of coffee that is ordered [CHAR LIMIT=NONE]-->
+    <string name="coffee_quantity">1</string>
+
+    <!--Order the coffee [CHAR LIMIT=NONE]-->
+    <string name="order_coffee">order</string>
+
+    <!--
+       Name for order summary. It will be shown in the format of
+       "Name; Joy" where Joy is the user's name. [CHAR LIMIT=NONE]
+   -->
+    <string name="order_summary_name">Name: <xliff:g example = "Joy" id = "name">%s</xliff:g></string>
+
+    <!--Thank you message for the order summary [CHAR LIMIT=NONE]-->
+    <string name="thank_you">Thank you!</string>
+
+    <!--Whipped cream option for the order summary [CHAR LIMIT=NONE]-->
+    <string name="add_whipped_cream_topping">Add whipped cream? <xliff:g example = "true" id = "addWhippedCream">%b</xliff:g></string>
+
+    <!--Chocolate option for the order summary [CHAR LIMIT=NONE]-->
+    <string name="add_chocolate_topping">Add chocolate? <xliff:g example = "true" id = "addChocolate">%b</xliff:g></string>
+
+    <!--Error message that shows if quantity is exceeding 100 coffee [CHAR LIMIT=NONE]-->
+    <string name="increment_toast_message">You can\'t order more than 100 coffees</string>
+
+    <!--Error message that shows if quantity is less than 1 coffee [CHAR LIMIT=NONE]-->
+    <string name="decrement_toast_message">You can\'t order less than 1 coffee</string>
+
+    <!--Email subject that shows order button is clicked and the email app opens [CHAR LIMIT=NONE]-->
+    <string name="order_summary_email_subject">Just Java order for <xliff:g example = "Joy" id = "message">%s</xliff:g></string>
+
+    <!--Text that displays the total price of coffee ordered in
+        the format "Total: $25" [CHAR LIMIT=NONE]-->
+    <string name="order_summary_price">Total: $ <xliff:g example = "$25" id = "price">%d</xliff:g></string>
+
+    <!--Text that displays the quantity of coffee in the format "Quantity: 2" [CHAR LIMIT=NONE]-->
+    <string name="order_summary_quantity">Quantity : <xliff:g example = "2" id = "quantity">%d</xliff:g></string>
 </resources>

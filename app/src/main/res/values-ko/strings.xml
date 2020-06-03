@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">그냥 자바</string>
+
+    <!--Header text for the list of toppings [CHAR LIMIT=20]-->
+    <string name="toppings">토핑</string>
+
+    <!--Name hint for the order summary [CHAR LIMIT=NONE]-->
+    <string name="customer_name">이름</string>
+
+    <!--Whipped cream topping option for coffee [CHAR LIMIT=NONE]-->
+    <string name="whipped_cream">휘핑 크림</string>
+
+    <!--Chocolate topping option for coffee [CHAR LIMIT=NONE]-->
+    <string name="chocolate">초콜릿</string>
+
+    <!--Header text for the number of coffee that is ordered [CHAR LIMIT=NONE]-->
+    <string name="quantity">갯수</string>
+
+    <!--Reduce the quantity of coffee [CHAR LIMIT=NONE]-->
+    <string name="decrement">-</string>
+
+    <!--Increases the quantity of coffee [CHAR LIMIT=NONE]-->
+    <string name="increment">+</string>
+
+    <!--Text that displays the amount of coffee that is ordered [CHAR LIMIT=NONE]-->
+    <string name="coffee_quantity">1</string>
+
+    <!--Order the coffee [CHAR LIMIT=NONE]-->
+    <string name="order_coffee">주문</string>
+
+    <!--
+       Name for order summary. It will be shown in the format of
+       "Name; Joy" where Joy is the user's name. [CHAR LIMIT=NONE]
+   -->
+    <string name="order_summary_name">이름: <xliff:g example = "Joy" id = "name">%s</xliff:g></string>
+
+    <!--Thank you message for the order summary [CHAR LIMIT=NONE]-->
+    <string name="thank_you">감사합니다!</string>
+
+    <!--Whipped cream option for the order summary [CHAR LIMIT=NONE]-->
+    <string name="add_whipped_cream_topping">휘핑크림 추가? <xliff:g example = "true" id = "addWhippedCream">%b</xliff:g></string>
+
+    <!--Chocolate option for the order summary [CHAR LIMIT=NONE]-->
+    <string name="add_chocolate_topping">초콜릿 추가? <xliff:g example = "true" id = "addChocolate">%b</xliff:g></string>
+
+    <!--Error message that shows if quantity is exceeding 100 coffee [CHAR LIMIT=NONE]-->
+    <string name="increment_toast_message">100 개 이상의 커피를 주문할 수 없습니다</string>
+
+    <!--Error message that shows if quantity is less than 1 coffee [CHAR LIMIT=NONE]-->
+    <string name="decrement_toast_message">1 커피 미만은 주문할 수 없습니다</string>
+
+    <!--Email subject that shows order button is clicked and the email app opens [CHAR LIMIT=NONE]-->
+    <string name="order_summary_email_subject">그냥 자바 주문 <xliff:g example = "Joy" id = "message">%s</xliff:g></string>
+
+    <!--Text that displays the price of coffee ordered [CHAR LIMIT=NONE]-->
+    <string name="order_summary_price">합계: $ <xliff:g example = "$25" id = "price">%d</xliff:g></string>
+
+    <!--Email subject that shows order button is clicked and the email app opens [CHAR LIMIT=NONE]-->
+    <string name="order_summary_quantity">수량: <xliff:g example = "2" id = "quantity">%d</xliff:g></string>
+</resources>
